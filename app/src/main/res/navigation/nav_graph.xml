@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/HFragment">
+
+    <fragment
+        android:id="@+id/HFragment"
+        android:name="com.example.blogapp.ui.fragments.HFragment"
+        android:label="fragment_h"
+        tools:layout="@layout/fragment_h" />
+</navigation>
